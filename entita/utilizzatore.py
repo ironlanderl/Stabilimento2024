@@ -1,7 +1,7 @@
 import pickle
 
 
-class Utilizzatore():
+class Utilizzatore:
 
     def __init__(self, id=None, nome=None, cognome=None, cf=None, indirizzo=None, email=None, telefono=None):
         self.id = id
